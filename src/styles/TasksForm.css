@@ -1,0 +1,33 @@
+.form-tasks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgb(81, 80, 80);
+    padding: 1rem;  
+}
+.form-tasks-input{
+    width: 90%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border: none;
+    border-bottom: 2px solid #c31432;
+    background: none;
+    
+}
+.form-tasks-input:focus{
+    outline: none;
+    border-bottom: 2px solid #240b36;
+}
+.form-tasks-button{
+    font-size: 1.7rem;
+    position: absolute;
+   margin-left: 35rem;
+   background: none;
+   color: #240b36;
+   cursor: pointer;
+}
+@media (max-width: 768px){
+    .form-tasks-button{
+        margin-left: 21rem;
+    } 
+}

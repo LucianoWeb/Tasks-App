@@ -1,0 +1,24 @@
+.header{
+    background: #c31432; 
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);
+    background: linear-gradient(to right, #240b36, #c31432); 
+    display: flex;
+    justify-content: center;
+    width: 40rem;
+    padding: 1rem;
+    color: white;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.header-title{
+    font-size: 2.5rem;
+}
+@media (max-width:768px){
+    .header{
+        width: 25rem;
+    }
+    .header-title{
+        font-size: 2rem;
+    }
+}
